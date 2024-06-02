@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.separador_inicial{
+    margin-top: 140px;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+.menu {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.menu h1, .menu a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0;
+}
+
+.menu h1 {
+    text-align: left;
+    padding: 10px;
+}
+
+.menu .boton {
+    color: whitesmoke;
+    text-decoration: none;
+    flex: 1;
+    padding: 10px 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu .boton:hover {
+    background-color: gray;
+    color: black;
+}
+
+.boton_seleccionado {
+    background-color: gray;
+    color: black;
+}
+
+.menu .boton_container {
+    display: flex;
+    width: 100%;
+}
+
+.tarjeta_personaje{
+    padding-bottom: 20px;
+    width: 18%;
+    background-color: rgba(87, 87, 87, 0.829);
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 0 1 calc(25% - 20px);
+    border-radius: 10px;
+}
+
+.tarjeta_personaje img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.boton_link {
+    background-color: rgba(66, 66, 66, 0.836);
+    color: aliceblue;
+    padding: 2%;
+    border: solid,2px;
+    border-radius: 15%;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.boton_link:hover{
+    background-color: rgba(124, 25, 25, 0.836);
+    color: aliceblue;
+}
+
+.tarjeta_personaje p{
+    margin-bottom: 35px;
+}
+
+.contenedor_tarjetas_personajes{
+    display: flex;
+    width: 100%;
+    justify-content: ;
+}
+
+.lista_habilidades {
+    list-style-type: none; /* Utiliza números en lugar de viñetas */
+    padding-left: 30px; /* Espaciado a la izquierda para el contenido de la lista */
+    margin-inline: 30%;
+}
+
+.lista_habilidades li {
+    margin-bottom: 10px; /* Espacio entre cada elemento de la lista */
+}
+
+.habilidad {
+    display: flex;
+    align-items: center; /* Alinea la imagen y el texto verticalmente */
+}
+
+.habilidad img {
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    height: 30px;
+}
+
+.habilidad a {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: #000; /* Color del texto del enlace */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Opcional: cambia el color del enlace al pasar el cursor por encima */
+.habilidad a:hover {
+    color: #007BFF; /* Color del texto del enlace al pasar el cursor */
+}
+.datos_personajes{
+    background-color: grey;
+    margin-left: 10%;
+    padding-bottom: 40px;
+}
+
+.datos_personajes h4,p,strong{
+    color: antiquewhite;
+    margin-left: 10px;
+}
+
+.secion_datos{
+    display: flex;
+}
+
+.tilulo_personaje{
+    background-color: #000;
+    margin-left: 10%;
+}
+
+.secion_datos img{
+    height: 150px;
+    margin-left: 60%;
+}
+
+.tilulo_personaje h2,h3{
+    color: antiquewhite;
+}
