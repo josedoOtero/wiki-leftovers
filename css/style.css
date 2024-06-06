@@ -149,10 +149,41 @@ h2, h3{
 }
 
 .secion_datos img{
-    height: 150px;
-    margin-left: 60%;
+    height: 250px;
+    margin-left: 50%;
+    border-style: solid;
 }
 
 .tilulo_personaje h2,h3{
     color: antiquewhite;
+}
+
+h4{
+    font-size: 18px;
+    color: antiquewhite;
+}
+
+.secion_texto{
+    background-color: rgba(80, 80, 80, 0.74);
+    margin-inline: 10%;
+    padding-inline: 30px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+.secion_texto h4{
+    text-align: center;
+}
+
+.secion_texto div{
+    display: flex;
+}
+
+.secion_texto p{
+    width: 60%;
+}
+
+.secion_texto img{
+    border-radius: 50%;
+    height: 20%;
 }
